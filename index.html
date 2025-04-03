@@ -6,6 +6,30 @@
     <title>Kalkulator Matriks</title>
 </head>
 <body>
-    
+    <h1>Operasi Matriks</h1>
+    <div class="matriks-container">
+        <div>
+            <h3>Matriks A</h3>
+            <div id="matrixA" class="matrix" ></div>
+        </div>
+        <div>
+            <h3>Matriks B</h3>
+            <div id="matrixB" class="matrix" ></div>
+        </div>
+    </div>
+    <h3>Operasi</h3>
+    <select id="operator">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="s">Skalar</option>
+    </select>
+    <input type="number" id="skalar" placeholder="Masukkan Skalar...">
+    <br>
+
+    <button onclick="hitung()">Hitung</button>
+    <h3>Hasil</h3>
+    <div id="hasil"></div>
+
 </body>
 </html>
